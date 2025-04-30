@@ -4,8 +4,16 @@
 #Após a inserção será calculado a operação e exibido ao
 #usuário o resultado
 
-numero1 = input("Digite o primeiro número :")
-print(numero1)
+#variaveis para número 
+# int essa recebe valores inteiros (1,2,3,4,5...)
+# float essa receberá valores flutuantes (peso, altura, moeda, pi ...)
 
-numero2 = input("Digite o segundo número :")
-print(numero2)
+numero1 = int(input("Digite o primeiro número :"))
+#print(numero1)
+
+numero2 = float(input("Digite o segundo número :"))
+#print(numero2)
+
+soma = numero1 + numero2
+
+print("O resultado da soma dos dois números é : ",soma)
