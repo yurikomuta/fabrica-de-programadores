@@ -13,5 +13,5 @@ print(idade)
 
 #exemplo de variavel do tipo texto
 nome = ("Maria")
-sobrenome = "Silva"
+sobrenome = 'Silva'
 print(nome,sobrenome)
