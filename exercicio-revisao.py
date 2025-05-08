@@ -15,21 +15,20 @@
 #potencia = numero1 ** numero2
 #print("A potência do numero 1 elevado ao número 2 é: ",potencia)
 
-#########
 
-nota1 = int(input('Insira primeira nota:'))
-#print(numero1)
+numero1 = int(input("Insira o primeiro numero da divisão : "))
+numero2 = int(input("Insira o segundo numero da divisão : "))
 
-nota2 = float(input('Insira segunda nota :'))
-#print(numero2)
+#divisao com resultado float
+divisao_float = numero1 / numero2
+print(divisao_float)
 
-#calculo de media
-media = nota1 + nota2 / 2
-#print("O valor de soma entre os números declarado é: ",soma)
+#divisao com resultado inteiro
+divisao_int = numero1 // numero2
+print(divisao_int)
 
-#exemplo booleano
-# media = int(input("Digite a sua idade:"))
-if media >= 7:
-    print("Aprovado")
-else:
-    print("Reprovado")
+#divisao com resto
+divisao_resto = numero1 % numero2
+print(divisao_resto)
+
+
