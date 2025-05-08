@@ -2,31 +2,34 @@
 #variavel é um espaço reservado na memória que recebe dados
 #tipos variaveis ( texto, booleano, número(inteiro e float(flutuante-peso, altura, medida)))
 
-numero1 = int(input('Insira o primeiro número:'))
-#print(numero1)
-
-numero2 = float(input('Insira o segundo número que seja flutuante :'))
-#print(numero2)
-
-#calculo de soma
-soma = numero1 + numero2
-print("O valor de soma entre os números declarado é: ",soma)
 
 #calcula subtração
-subtracao = numero1 - numero2
-print("A subtração dos números é :",subtracao)
+#subtracao = numero1 - numero2
+#print("A subtração dos números é :",subtracao)
 
 #calculo multiplicacao
-multiplicacao = numero1 * numero2
-print("A multiplicação dos números é:",multiplicacao)
+#multiplicacao = numero1 * numero2
+#print("A multiplicação dos números é:",multiplicacao)
 
 #calculo potencia 
-potencia = numero1 ** numero2
-print("A potência do numero 1 elevado ao número 2 é: ",potencia)
+#potencia = numero1 ** numero2
+#print("A potência do numero 1 elevado ao número 2 é: ",potencia)
+
+#########
+
+nota1 = int(input('Insira primeira nota:'))
+#print(numero1)
+
+nota2 = float(input('Insira segunda nota :'))
+#print(numero2)
+
+#calculo de media
+media = nota1 + nota2 / 2
+#print("O valor de soma entre os números declarado é: ",soma)
 
 #exemplo booleano
-idade = int(input("Digite a sua idade:"))
-if idade >= 18:
-    print(True)
+# media = int(input("Digite a sua idade:"))
+if media >= 7:
+    print("Aprovado")
 else:
-    print(False)
+    print("Reprovado")
